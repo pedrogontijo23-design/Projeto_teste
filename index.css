@@ -1,0 +1,37 @@
+* {
+    font-size: 67.5%;
+}
+
+#indicators-son{
+    background-color: rgb(95, 95, 95);
+    height: 20px;
+    width: 50px;
+
+}
+
+#indicators-son h2{
+    color: rgb(251, 255, 0);
+    font-weight: 500;
+    font-size: 10px;
+}
+
+input{
+    background: rgb(231, 230, 230);
+    color: #050505;
+    height: 100px;
+    width: 200px; 
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input:hover{ /* houver é o patametro de ação da tag quando se passa o mouse por cima*/
+    /* background: rgb(242, 247, 1); Todo imput seria com background apenas */
+    background: yellow;
+    color: blue;
+    height: 160px;
+
+}
+
+input:focus{ /*Focus seria toda interação com o objeto*/
+    background: pink;
+}
